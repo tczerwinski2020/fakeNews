@@ -4,6 +4,7 @@ Three programs to detect fake news. The first is through TFIDF and PAC. Second i
 
 
 Abstract
+
 We were given a classification problem to determine whether an article was fake news or real news. To solve this, we built three fake news detection models in Python, each based on different data analysis methods:
 TF-IDF and Passive Aggressive Classifier
 TF-IDF and Logistical Regression
@@ -12,12 +13,14 @@ Each of these models has two components, a feature constructor and a classifier.
 
 
 Background
+
 With the rise of online journalism through alternative media outlets and social media, the issue of fake news has become significantly more prevalent in mainstream discourse. The best way to combat the consumption of fake news is to verify sources manual using basic source checking techniques like the ones seen below:
 
 That being said, the volume of news media being spread on the internet each day is simply too high to manually account for every article, tweet, and blog post, necessitating an autonomous solution to the problem. Machine learning has been the backbone to a variety of algorithmic approaches to detecting and classifying fake news. These ML implementations involve training a model on a large number of articles, which then constructs an algorithm to predict the validity of future articles passed through the model. These models usually involve two key components,  feature construction and classification. Feature Construction is the concept of taking the set of raw inputs (in this case, articles, tweets, etc) and reducing them to some set of “features” that can then be easily interpreted by a classifier. It is then the job of the classifier to use the prior data its been fed, to make a prediction about how that piece of data should be grouped (in our case, whether it is fake or real news). 
 
 
 Methods
+
 Through our three fake news detectors, we used a multitude of machine learning and natural language processing tools. These include TF-IDF, Passive Aggressive Classifier, logistic regression modeling, count vectorizer, and the Multinomial Naive Bayes (MNB) algorithm. 
 
 Cleaning the Data
@@ -40,6 +43,7 @@ Multinomial Naive Bayes is an algorithm used for text classification. Used in Na
 
 
 Results
+
 Our TF-IDF and PAC program was found to be 97% accurate. In the test data, 2611 fake articles were found and 2589 real ones. Otherwise, 50.21% of the articles in the test data were fake according to this model (49.79% were identified as real articles). The TF-IDF and LR algorithm was found to be 94.88% accurate, finding 2609 fake articles and 2591 real articles in the test data. This program identified 50.17% as fake articles and 49.83% as real articles. Lastly, our Count Vectorizer and Multinomial NB program was found to be 91.32% accurate, with 2963 fake articles identified and 2237 real ones. This program found 56.98% of the test data to be fake articles and 43.02% 
 
 
