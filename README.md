@@ -51,14 +51,17 @@ Our TF-IDF and PAC program was found to be 97% accurate. In the test data, 2611 
 Accuracy
 
 Term Frequency-Inverse Document Frequency (TF-IDF)
+
 Passive Aggressive Classifier 
 97.00 %
 
 Term Frequency-Inverse Document Frequency (TF-IDF)
+
 Logistical Regression
 94.88 %
 
 CountVectorizer
+
 Multinomial Naive Bayes Classifier
 91.32 %
 
@@ -66,24 +69,28 @@ Multinomial Naive Bayes Classifier
 #
 
 Number of Test Articles Found to be Fake
+
 Number of Test Articles Found to be Real
 
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Passive Aggressive Classifier 
 
 2611
+
 2589
 
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Logistical Regression
 
 2609
+
 2591
 
 CountVectorizer=
 Multinomial Naive Bayes Classifier
 
 2963
+
 2237
 
 
