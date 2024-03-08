@@ -24,21 +24,27 @@ Methods
 Through our three fake news detectors, we used a multitude of machine learning and natural language processing tools. These include TF-IDF, Passive Aggressive Classifier, logistic regression modeling, count vectorizer, and the Multinomial Naive Bayes (MNB) algorithm. 
 
 Cleaning the Data
+
 To clean the data, we used a combination of techniques. First, we removed extra white spaces on the column names. Next, we converted numerical data into categorical data (REAL/FAKE). Third, we replaced nulls with the empty string. Lastly, we removed links from the data and everything that isn’t a character or punctuation. We then removed stop words and put all string data to lowercase. 
 
 TF-IDF
+
 Term Frequency-Inverse Document Frequency (TF-IDF) is a feature construction method (or feature vectorizer to be more precise). It seeks to determine the relevance of terms to an article by measuring their frequency in relation to the size of the article. TF-IDF is often used in information retrieval and machine learning.
 
 Count Vectorizer
+
 The Count Vectorizer is a feature vectorizer similar to the TF-IDF. Rather than trying to calculate the relevance of terms, it simply stores the number of times each term appears in the text within a sparse matrix. 
 
 Passive Aggressive Classifier
+
 Sklearn’s Passive Aggressive Classifier is an algorithm often used in large-scale machine learning. It classifies something as passive if the model fits, and aggressive if the model needs to be changed. 
 
 Logistical Regression
+
 Logistical Regression is in a popular data analysis tool used to find the relationship between two factors in data. In our case, we would be looking at the relationship between the term relevance values found by our TF-IDF and the validity of the news article. 
 
 Multinomial Naive Bayes
+
 Multinomial Naive Bayes is an algorithm used for text classification. Used in Natural Language Processing (NLP) problems, it is particularly useful for problems that involve text counts. 
 
 
@@ -86,23 +92,10 @@ Logistical Regression
 
 2591
 
-CountVectorizer=
+CountVectorizer
 Multinomial Naive Bayes Classifier
 
 2963
 
 2237
-
-
-
-
-
-
-
-
-
-Sources
-Spotting Fake News Infographic
-TF-IDF + PassiveAggressiveClassifier Implementation
-TF-IDF + Logistical Regression Implementation
 
