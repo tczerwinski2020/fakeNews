@@ -1,6 +1,6 @@
 # fakeNews
 
-Three programs to detect fake news. The first is through TFIDF and PAC. Second is TFIDF and Logistic regression. The third was through a count vectorizer and Multinomial Naive Bayes classifier. This program was written in Python. The training data set was too large of a file to upload. 
+Three programs to detect fake news. The first is through TFIDF and PAC. Second is TFIDF and Logistical regression. The third was through a count vectorizer and Multinomial Naive Bayes classifier. This program was written in Python. The training data set was too large of a file to upload. 
 
 
 Abstract
@@ -48,41 +48,41 @@ Our TF-IDF and PAC program was found to be 97% accurate. In the test data, 2611 
 
 
 #
-Feature Constructor
-Classifier
 Accuracy
-1
+
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Passive Aggressive Classifier 
-97.00
-2
+97.00 %
+
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Logistical Regression
-94.88
-3
+94.88 %
+
 CountVectorizer
 Multinomial Naive Bayes Classifier
-91.32
+91.32 %
 
 
 #
-Feature Constructor
-Classifier
+
 Number of Test Articles Found to be Fake
 Number of Test Articles Found to be Real
-1
+
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Passive Aggressive Classifier 
+
 2611
 2589
-2
+
 Term Frequency-Inverse Document Frequency (TF-IDF)
 Logistical Regression
+
 2609
 2591
-3
-CountVectorizer
+
+CountVectorizer=
 Multinomial Naive Bayes Classifier
+
 2963
 2237
 
